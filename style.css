@@ -1,0 +1,57 @@
+body{
+    background-image: url('assets/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.navbar a{
+    filter: opacity(1);
+    background: none;
+    color: goldenrod;   
+}
+
+.navbar-right{
+    position: fixed;
+    right: 20px;
+}
+
+.carousel{
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+}
+
+.carousel-inner{
+    height: inherit;
+    width: 70%;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 2em;
+}
+
+.card-body{
+    background-color: #6c584f;
+    color: white;
+}
+
+h1{
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+p{
+    margin: 20%;
+    color: white;  
+}
